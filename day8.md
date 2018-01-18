@@ -1,0 +1,7 @@
+## Learning Journal Day 8
+
+Today we learned about event listeners and how to implement one that responds to a user submitting a form. It is good to learn and gain more experience working with event listeners. The lab part that actually focused on what we learned today was pretty easy, but I spent way too much time trying to get my code to properly calculate the hourly total of cookies sold across all locations. As of now, I am still trying to figure out how to only call my random set of numbers once to make all calculations, but I believe I did not structure my code as well as I could have to make that happen, so I will try and fix it.
+
+As we approach the end of the second week, I am quite happy with the way it is going for me. We have spent most of the time working on stuff I was already sort of familiar with, but I am learning it better than I ever learned it on my own. 
+
+The hardest part for me is actually thinking through more complex logic. I am fine with all the concepts, but as today shows I end up getting stuck on a problem with the mathematical logic in my code, which takes me longer than it should to solve. I am hoping that as I continue to solve more problems it will get easier. Here's hoping I can quickly resolve the matter when I get home. 
