@@ -1,0 +1,9 @@
+## Learning Journal Day 9
+
+Today was slightly stressful.
+
+I still had some trouble not generating my random numbers twice - once for the store data, and again for the hourly data across stores. I don't know why this gave me so much trouble but, like most of the time, it was a very basic solution that just required me to look at the bigger picture of what the code was trying to accomplish. I have to instantiate each object only one time, and during that time all data related to that object must be encapsulated so that the next object is instantiated with its own set of data in the same exact manner as the previous. 
+
+I was pushing all my store data to an array located inside the data creation function and returning the value there rather than pushing it to an array which is a property of the constructor function so it will be a fresh and persistant value for each object. This also made the data inaccessible from the object because I was trying to access it from a prototype function. This became much easier once I added the array to the constructor function because it became a property of the object. This allowed me to access the data from the footer function and display the correct total.
+
+The forms were relatively easy to add, including the stretch goal of updating existing information on the table. This was much easier for me than dealing with the footer on the table. I think one thing I have to work on is stepping back and looking at the problem from a bigger picture. Sometimes it is easy to get stuck in the logic and syntax and fail to understand exactly what I'm trying to accomplish. When I can do that I can usually solve the problem.
