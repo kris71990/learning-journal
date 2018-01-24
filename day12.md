@@ -1,0 +1,5 @@
+## Learning Journal Day 12
+
+Today was a nice continuation of yesterday. The lab was a simple implementation of a chart using the chartjs library, which is a simple as surveying the documentation and creating something similar in my code. The chart was pretty easy to add, but it was a bit harder to set it to the right size, which was ultimately solved by setting certain options in the chart object which allowed element dimensions to be controllable from the html/css.
+
+Apart from that, I fixed the logic which now prevents images from being repeats of the last iteration, which was a bit more difficult than I expected. The main problem was making sure to repopulate the lastDisplayed array for the next iteration after the new random numbers had been checked generated. It was a matter of thinking through the logic for a few minutes and setting a debugger to check array values to figure out where to position things. I might add another chart reflecting percentages of selection later tonight. 
